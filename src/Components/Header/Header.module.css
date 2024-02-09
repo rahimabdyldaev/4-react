@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #7a7a7a;
+    padding: 25px 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}

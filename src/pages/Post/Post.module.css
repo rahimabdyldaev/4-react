@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 87%;
+    margin: 100px auto;
+    height: 80vh;
+    overflow-y: auto;
+    background-color: #a7a7a7;
+}
+
+.posts {
+    width: 90%;
+    height: 20vh;
+    margin: 50px auto;
+    border: 3px ridge;
+    border-color: none;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+    color: black;
+}
+
+.posts .post {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts button {
+    width: 100px;
+    height: 20px;
+    align-self: center;
+    color: rgb(0, 0, 0);
+}
+
+.header{
+    width: 100%;
+}
+body{
+    background-color: #fcff44;
+    color: #252525; 
+}
+.Link{
+    text-decoration: none;
+}
